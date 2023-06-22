@@ -1,0 +1,46 @@
+.fixed-button {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 100px;
+    height: 50px; 
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.verticalmente {
+    position: relative;
+    display: flex; 
+}   
+  
+.verticalmente::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 3px;
+    background-color: white;
+}
+  
+.content {
+    padding-left: 20px;
+}
+
+.zeroMargin {
+    margin: 0;
+}
+
+
+/* эти два стиля не самые удачные, не знаю, как это реализовать по другому( */
+.sizeConntectingStyles {
+    max-width: 50vw;
+}
+
+.sizeBasicSyntax {
+    max-width: 40vw;
+}
